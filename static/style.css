@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+#navbar li {
+list-style: none;
+}
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 20px ;
+    color: white;
+    
+}
+#navbar li a:hover {
+   margin-left: 5px;
+    color: rgb(0, 0, 0);
+    
+}
+#navbar  ul {
+    display: flex;
+    justify-content: center; background-color: rgb(255, 0, 0);
+    height: 51px;
+    align-items: center;
+}
+.card{
+    border: 2px solid black;
+    height: 188px;
+    width: 228px;
+    border-radius: 10px;
+    margin: 24px 9px;
+    display: inline-block;
+    background: cornsilk;
+}
+#missionsection h1{
+    text-align: center;
+}
+.card h3 {
+    text-align: center;
+}
+#missionsection{
+    height: 300px;
+    width: 50%;
+    margin: auto;
+}
+
+
+#introsection{
+    height:  420px;
+    background-color: yellow;
+    background: url(/static/rainier-ridao-GRDpPpKczdY-unsplash.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+    color: white;
+
+}
+#introsection .small{
+    font-size: 25px;
+}
+#sponsarsection {
+height: 300px;
+background-color: rgb(240, 11, 11);
+text-align: center;
+}
+#sponsers{
+    height: 120px;
+    margin: auto;
+}
+.image{
+    border-radius: 20px;
+    height: 147%;
+    margin: 26px;
+}
+#footer {
+height: 50px;
+background-color: rgb(0, 0, 0);
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}

@@ -1,0 +1,33 @@
+extends base.pug
+
+block scripts
+     script(src="/static/index.js") 
+
+block style 
+    style 
+        include ../static/style.css
+block content 
+   
+        section#introsection 
+          div  Welcome to Tanmay's Dance Academy
+          div.small Eat Sleep Dance Repeat
+        section#missionsection 
+            h1 Our Mission 
+            div.card 
+                h3 Dance Perfection
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ipsa saepe, adipisci inventore neque numquam quos est in maxime quidem!
+            div.card 
+                h3 Expert teaching
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ipsa saepe, adipisci inventore neque numquam quos est in maxime quidem!
+            div.card 
+                h3 Dance Competitions
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto ipsa saepe, adipisci inventore neque numquam quos est in maxime quidem!
+
+        section#sponsarsection 
+            h1   Our Sponsers
+                div#sponsers
+                    img(src="/static/1.jpg", alt="" ,class = ' image')
+                    img(src="/static/2.jpg", alt="" ,class = ' image')
+                    img(src="/static/3.jpg", alt="" ,class = ' image')
+        footer#footer 
+          | Copyright &copy; ALL RIGHTS RESERVED
